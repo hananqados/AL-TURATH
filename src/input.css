@@ -1,0 +1,9 @@
+@import "tailwindcss";
+@utility row{
+    @apply flex  items-center
+}
+@theme{
+    --font-Heading:"IBM Plex Sans Arabic";
+    --color-nav:#414845;
+    --color-underline:#755B00;
+}
