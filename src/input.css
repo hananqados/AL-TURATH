@@ -1,9 +1,16 @@
 @import "tailwindcss";
 @utility row{
-    @apply flex  items-center
+    @apply flex  items-center; 
 }
+
 @theme{
     --font-Heading:"IBM Plex Sans Arabic";
+    --font-paragraph:"Libre Baskerville";
     --color-nav:#414845;
     --color-underline:#755B00;
+}
+@layer base{
+    h1{
+        @apply text-[48px]  leading-15 text-[#07271F];
+    }
 }
