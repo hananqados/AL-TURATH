@@ -38,7 +38,10 @@
       @apply  md:text-[12px] text-[20px];
     }
     button{
-        @apply cursor-pointer;
+        @apply cursor-pointer transition-all duration-300 inline-block hover:scale-110;
+    }
+    input{
+         @apply cursor-pointer;
     }
 
 }
