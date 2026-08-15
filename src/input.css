@@ -59,4 +59,7 @@
   .numbers{
     @apply flex items-center justify-center border bg-white border-[#C1C8C4] w-10 h-10;
   }
+  .inputLeftSide{
+    @apply row gap-3 text-[24px] md:text-[16px];
+  }
 }
