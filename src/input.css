@@ -37,11 +37,23 @@
     h6{
       @apply  md:text-[12px] text-[20px];
     }
+    button{
+        @apply cursor-pointer;
+    }
 
 }
 
 @layer components{
     .title{
     @apply   leading-6 text-[#1A1C1B] mt-4 text-center;
+  }
+  .imgProducts{
+    @apply border bg-[#F4F3F1] border-[#C1C8C4]/20  p-4 relative;
+  }
+  .imgProductsP1{
+    @apply border bg-[#F4F3F1] border-[#C1C8C4]/20  p-6.25 relative;
+  }
+  .numbers{
+    @apply flex items-center justify-center border bg-white border-[#C1C8C4] w-10 h-10;
   }
 }
