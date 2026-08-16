@@ -451,6 +451,15 @@
     --tw-translate-y: calc(calc(1 / 2 * 100%) * -1);
     translate: var(--tw-translate-x) var(--tw-translate-y);
   }
+  .\!cursor-pointer {
+    cursor: pointer !important;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .cursor-pointer\! {
+    cursor: pointer !important;
+  }
   .resize {
     resize: both;
   }
@@ -749,6 +758,18 @@
   .backdrop-filter {
     -webkit-backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
     backdrop-filter: var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+  }
+  .\[all\:revert\] {
+    all: revert;
+  }
+  .\[all\:u\] {
+    all: u;
+  }
+  .\[all\:un\] {
+    all: un;
+  }
+  .\[all\:unset\] {
+    all: unset;
   }
   @media (hover: hover) {
     .hover\:bg-amber-900:hover {
