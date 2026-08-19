@@ -38,7 +38,7 @@
       @apply  md:text-[12px] text-[20px];
     }
     button{
-        @apply cursor-pointer transition-all duration-300 inline-block hover:scale-110;
+        @apply cursor-pointer transition-all duration-200 inline-block hover:scale-90;
     }
     input{
          @apply cursor-pointer;
