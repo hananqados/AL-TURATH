@@ -279,6 +279,12 @@
   .m-6 {
     margin: calc(var(--spacing) * 6);
   }
+  .m-20 {
+    margin: calc(var(--spacing) * 20);
+  }
+  .mx-20 {
+    margin-inline: calc(var(--spacing) * 20);
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -357,6 +363,9 @@
   .mt-\[176px\] {
     margin-top: 176px;
   }
+  .mr-0 {
+    margin-right: 0px;
+  }
   .mr-2 {
     margin-right: calc(var(--spacing) * 2);
   }
@@ -378,6 +387,9 @@
   .mr-16 {
     margin-right: calc(var(--spacing) * 16);
   }
+  .mr-20 {
+    margin-right: calc(var(--spacing) * 20);
+  }
   .mr-\[22\.51px\] {
     margin-right: 22.51px;
   }
@@ -393,11 +405,17 @@
   .mb-2 {
     margin-bottom: calc(var(--spacing) * 2);
   }
+  .mb-3 {
+    margin-bottom: calc(var(--spacing) * 3);
+  }
   .mb-4 {
     margin-bottom: calc(var(--spacing) * 4);
   }
   .mb-6 {
     margin-bottom: calc(var(--spacing) * 6);
+  }
+  .mb-8 {
+    margin-bottom: calc(var(--spacing) * 8);
   }
   .mb-12 {
     margin-bottom: calc(var(--spacing) * 12);
@@ -750,6 +768,10 @@
     border-top-style: var(--tw-border-style);
     border-top-width: 2px;
   }
+  .border-r {
+    border-right-style: var(--tw-border-style);
+    border-right-width: 1px;
+  }
   .border-r-2 {
     border-right-style: var(--tw-border-style);
     border-right-width: 2px;
@@ -762,8 +784,20 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 2px;
   }
+  .border-\[\#4f5f59\] {
+    border-color: #4f5f59;
+  }
+  .border-\[\#5a6762\] {
+    border-color: #5a6762;
+  }
+  .border-\[\#87A89C\] {
+    border-color: #87A89C;
+  }
   .border-\[\#C1C8C4\]\/30 {
     border-color: color-mix(in oklab, #C1C8C4 30%, transparent);
+  }
+  .border-\[\#c1dad1\] {
+    border-color: #c1dad1;
   }
   .border-\[\#eaeceb\] {
     border-color: #eaeceb;
@@ -780,6 +814,15 @@
   .border-underline {
     border-color: var(--color-underline);
   }
+  .bg-\[\#1F3D34\] {
+    background-color: #1F3D34;
+  }
+  .bg-\[\#07271F\] {
+    background-color: #07271F;
+  }
+  .bg-\[\#\<div\>\<\/div\>\] {
+    background-color: #<div></div>;
+  }
   .bg-\[\#BA1A1A\] {
     background-color: #BA1A1A;
   }
@@ -791,6 +834,9 @@
   }
   .bg-\[\#F4F3F1\] {
     background-color: #F4F3F1;
+  }
+  .bg-\[\#\] {
+    background-color: #;
   }
   .bg-\[\#eaeceb\] {
     background-color: #eaeceb;
@@ -891,6 +937,12 @@
   .py-4 {
     padding-block: calc(var(--spacing) * 4);
   }
+  .py-4\.5 {
+    padding-block: calc(var(--spacing) * 4.5);
+  }
+  .py-5 {
+    padding-block: calc(var(--spacing) * 5);
+  }
   .py-6 {
     padding-block: calc(var(--spacing) * 6);
   }
@@ -920,6 +972,18 @@
   }
   .py-42\.5 {
     padding-block: calc(var(--spacing) * 42.5);
+  }
+  .py-\[18\] {
+    padding-block: 18;
+  }
+  .py-\[18px\] {
+    padding-block: 18px;
+  }
+  .py-\[20\] {
+    padding-block: 20;
+  }
+  .py-\[20px\] {
+    padding-block: 20px;
   }
   .py-\[110px\] {
     padding-block: 110px;
@@ -966,8 +1030,18 @@
   .font-serif {
     font-family: var(--font-serif);
   }
+  .text-2xl {
+    font-size: var(--text-2xl);
+    line-height: var(--tw-leading, var(--text-2xl--line-height));
+  }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
   .text-\[14px\] {
     font-size: 14px;
+  }
+  .text-\[16px\] {
+    font-size: 16px;
   }
   .text-\[20px\] {
     font-size: 20px;
@@ -982,8 +1056,23 @@
   .whitespace-normal {
     white-space: normal;
   }
+  .text-\[\#87A89C\] {
+    color: #87A89C;
+  }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
+  }
+  .text-\[\#\] {
+    color: #;
+  }
+  .text-\[1\] {
+    color: 1;
+  }
+  .text-\[16\] {
+    color: 16;
+  }
+  .text-\[underline\] {
+    color: underline;
   }
   .text-grayy {
     color: var(--color-grayy);
@@ -1035,6 +1124,12 @@
   }
   .underline-offset-20 {
     text-underline-offset: 20px;
+  }
+  .placeholder-\[\#87A89C\]::placeholder {
+    color: #87A89C;
+  }
+  .placeholder-\[\#\]::placeholder {
+    color: #;
   }
   .accent-underline {
     accent-color: var(--color-underline);
@@ -1177,6 +1272,9 @@
     .md\:mr-0 {
       margin-right: 0px;
     }
+    .md\:mr-20 {
+      margin-right: calc(var(--spacing) * 20);
+    }
     .md\:mb-0 {
       margin-bottom: 0px;
     }
@@ -1247,6 +1345,10 @@
     .md\:border {
       border-style: var(--tw-border-style);
       border-width: 1px;
+    }
+    .md\:border-r {
+      border-right-style: var(--tw-border-style);
+      border-right-width: 1px;
     }
     .md\:px-0 {
       padding-inline: 0px;
