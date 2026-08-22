@@ -1,65 +1,80 @@
 @import "tailwindcss";
-@utility row{
-    @apply flex  items-center ; 
+
+@utility row {
+  @apply flex items-center;
 }
 
-@theme{
-    --font-Heading:"IBM Plex Sans Arabic";
-    --font-paragraph:"Libre Baskerville";
-    --font-logo:"Literata";
-    --color-nav:#414845;
-    --color-underline:#755B00;
-    --color-texts:#07271F;
-    --color-grayy:#727975
+@theme {
+  --font-Heading: "IBM Plex Sans Arabic";
+  --font-paragraph: "Libre Baskerville";
+  --font-logo: "Literata";
+  --color-nav: #414845;
+  --color-underline: #755B00;
+  --color-texts: #07271F;
+  --color-grayy: #727975
 }
-@layer base{
-    a{
-        @apply transition-all duration-300 inline-block hover:scale-110 hover:text-amber-900
-    }
-    p{
-        @apply   md:text-[16px] text-[24px];
-    }
-    h1{
-      @apply md:text-5xl text-7xl ;  
-    }
-    h2{
-        @apply md:text-4xl text-5xl;
-    }
-    h3{
-        @apply md:text-2xl text-3xl;
-    }
-    h4{
-        @apply md:text-[22px] text-[32px] text-underline font-bold font-paragraph;
-    }
-    h5{
-       @apply  md:text-[16px] text-[24px];  
-    }
-    h6{
-      @apply  md:text-[12px] text-[20px];
-    }
-    button{
-        @apply cursor-pointer transition-all duration-200 inline-block hover:scale-90;
-    }
-    input{
-         @apply cursor-pointer;
-    }
+
+@layer base {
+  a {
+    @apply transition-all duration-300 inline-block hover:scale-110 hover:text-amber-900
+  }
+
+  p {
+    @apply text-[16px];
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+
+  h2 {
+    @apply text-4xl;
+  }
+
+  h3 {
+    @apply text-2xl;
+  }
+
+  h4 {
+    @apply text-[24px] text-underline font-bold font-paragraph;
+  }
+
+  h5 {
+    @apply text-[16px];
+  }
+
+  h6 {
+    @apply text-[12px];
+  }
+
+  button {
+    @apply cursor-pointer transition-all duration-200 inline-block hover:scale-90;
+  }
+
+  input {
+    @apply cursor-pointer;
+  }
 
 }
 
-@layer components{
-    .title{
-    @apply   leading-6 text-[#1A1C1B] mt-4 text-center;
+@layer components {
+  .title {
+    @apply leading-6 text-[#1A1C1B] mt-4 text-center;
   }
-  .imgProducts{
-    @apply border bg-[#F4F3F1] border-[#C1C8C4]/20  p-4 relative;
+
+  .imgProducts {
+    @apply border bg-[#F4F3F1] border-[#C1C8C4]/20 p-4 relative;
   }
-  .imgProductsP1{
-    @apply border bg-[#F4F3F1] border-[#C1C8C4]/20  p-6.25 relative;
+
+  .imgProductsP1 {
+    @apply border bg-[#F4F3F1] border-[#C1C8C4]/20 p-6.25 relative;
   }
-  .numbers{
+
+  .numbers {
     @apply flex items-center justify-center border bg-white border-[#C1C8C4] w-10 h-10;
   }
-  .inputLeftSide{
-    @apply row gap-3 text-[24px] md:text-[16px];
+
+  .inputLeftSide {
+    @apply row gap-3 text-[16px];
   }
 }
