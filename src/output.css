@@ -895,11 +895,20 @@
   .bg-\[\#b1aa94\] {
     background-color: #b1aa94;
   }
+  .bg-\[\#bab19e\] {
+    background-color: #bab19e;
+  }
   .bg-\[\#bbaf8b\] {
     background-color: #bbaf8b;
   }
   .bg-\[\#bda1a8\] {
     background-color: #bda1a8;
+  }
+  .bg-\[\#bfb8aa\] {
+    background-color: #bfb8aa;
+  }
+  .bg-\[\#c2ad73\] {
+    background-color: #c2ad73;
   }
   .bg-\[\#c3abb2\] {
     background-color: #c3abb2;
@@ -922,14 +931,32 @@
   .bg-\[\#c8c8c1\] {
     background-color: #c8c8c1;
   }
+  .bg-\[\#c9bfab\] {
+    background-color: #c9bfab;
+  }
   .bg-\[\#cfd4b7\] {
     background-color: #cfd4b7;
+  }
+  .bg-\[\#d2cec8\] {
+    background-color: #d2cec8;
   }
   .bg-\[\#d4b7bf\] {
     background-color: #d4b7bf;
   }
   .bg-\[\#d4d1b7\] {
     background-color: #d4d1b7;
+  }
+  .bg-\[\#d7cab0\] {
+    background-color: #d7cab0;
+  }
+  .bg-\[\#d7cdb9\] {
+    background-color: #d7cdb9;
+  }
+  .bg-\[\#d9c690\] {
+    background-color: #d9c690;
+  }
+  .bg-\[\#dbc8a2\] {
+    background-color: #dbc8a2;
   }
   .bg-\[\#dccc97\] {
     background-color: #dccc97;
@@ -945,6 +972,12 @@
   }
   .bg-\[\#dfd2ac\] {
     background-color: #dfd2ac;
+  }
+  .bg-\[\#e0d1b2\] {
+    background-color: #e0d1b2;
+  }
+  .bg-\[\#e0d4bc\] {
+    background-color: #e0d4bc;
   }
   .bg-\[\#e2dfda\] {
     background-color: #e2dfda;
@@ -994,6 +1027,12 @@
   .bg-\[\#ecddb3\] {
     background-color: #ecddb3;
   }
+  .bg-\[\#ede1cb\] {
+    background-color: #ede1cb;
+  }
+  .bg-\[\#ede6d4\] {
+    background-color: #ede6d4;
+  }
   .bg-\[\#eedaa4\] {
     background-color: #eedaa4;
   }
@@ -1021,6 +1060,9 @@
   .bg-\[\#f1e6c7\] {
     background-color: #f1e6c7;
   }
+  .bg-\[\#f1e8d6\] {
+    background-color: #f1e8d6;
+  }
   .bg-\[\#f3e6bd\] {
     background-color: #f3e6bd;
   }
@@ -1042,8 +1084,14 @@
   .bg-\[\#f6ebcb\] {
     background-color: #f6ebcb;
   }
+  .bg-\[\#f7ebd2\] {
+    background-color: #f7ebd2;
+  }
   .bg-\[\#f9efd1\] {
     background-color: #f9efd1;
+  }
+  .bg-\[\#f9f0df\] {
+    background-color: #f9f0df;
   }
   .bg-\[\#fbe49f\] {
     background-color: #fbe49f;
@@ -1338,6 +1386,9 @@
   .text-\[16px\] {
     font-size: 16px;
   }
+  .text-\[18px\] {
+    font-size: 18px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
@@ -1366,6 +1417,9 @@
   .text-\[1\] {
     color: 1;
   }
+  .text-\[2\] {
+    color: 2;
+  }
   .text-\[10\] {
     color: 10;
   }
@@ -1374,6 +1428,9 @@
   }
   .text-\[16\] {
     color: 16;
+  }
+  .text-\[24\] {
+    color: 24;
   }
   .text-black {
     color: var(--color-black);
