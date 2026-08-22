@@ -1,0 +1,94 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap"
+        rel="stylesheet">
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body dir="rtl" class="bg-[#F4F3F1] relative min-h-screen row justify-center p-4 ">
+    <div class="absolute -z-10 w-72 h-72 bg-[#f1e6c7] blur-3xl top-0 right-0"></div>
+    <div class="  flex flex-col  justify-between font-paragraph py-8 w-full max-w-md mx-auto">
+        <header>
+            <div class=" text-center mb-6">
+                <h2 class="font-bold">AL-TURATH</h2>
+                <h5 class="text-nav">الفخامة في كل تفاصيل التراث</h5>
+            </div>
+        </header>
+        <main>
+            <div class="w-full bg-[#f1e6c7] rounded-lg mb-6 ">
+                <div class="grid grid-cols-2 text-center overflow-hidden shadow-sm">
+                    <div class=" border-b-2 border-[#8b7336] bg-[#e3d5b0]">
+                        <button class="w-full">
+                            <h6 class="py-5 text-texts">تسجيل الدخول</h6>
+                        </button>
+                    </div>
+                    <div>
+                        <button class="w-full">
+                            <h6 class="text-texts py-5">إنشاء حساب</h6>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-6 p-6 sm:p-10">
+                    <div>
+                        <h6 class="text-nav mb-1">البريد الإلكتروني</h6>
+                        <input type="email" placeholder="example@domain.com"
+                            class="bg-white  placeholder-[#6B7280] w-full text-[16px] px-4 py-3 rounded">
+                    </div>
+                    <div class="flex flex-col">
+                        <div class="row justify-between text-nav mb-1">
+                            <div>
+                                <h6>كلمة المرور</h6>
+                            </div>
+                            <div>
+                                <h6>نسيت كلمة المرور؟</h6>
+                            </div>
+                        </div>
+                        <div class="mt-1"><input type="password" placeholder="........"
+                                class="bg-white  placeholder-[#6B7280] w-full text-[16px] px-4 py-3 rounded"></div>
+                    </div>
+                    <div>
+                        <button
+                            class=" text-white font-bold row  justify-center bg-texts gap-1 py-4 px-12 w-full rounded">
+                            دخول</button>
+                        <img src="./assest/icons/سهم.svg">
+                    </div>
+                    <div class="row justify-center gap-1">
+                        <div class="h-px flex-1 bg-[#765f3c]"></div>
+                        <span class=" text-[16px] text-[#765f3c] shrink-0">أو من خلال</span>
+                        <div class="h-px flex-1 bg-[#765f3c]"></div>
+                    </div>
+                    <div>
+                        <button
+                            class=" text-nav font-bold row justify-center bg-white gap-1 py-4 px-12 w-full rounded">
+                            <img src="./assest/icons/google.svg" alt="google">
+                            المتابعة عبر جوجل</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="text-center flex flex-col justify-between gap-3 font-Heading">
+                <div class="flex justify-center gap-4 text-nav font-bold">
+                    <h6>عن التراث</h6>
+                    <h6>المساعدة</h6>
+                    <h6>الشروط</h6>
+                </div>
+                <div>
+                    <p class=" text-grayy">© ٢٠٢٤ التراث للفخامة. جميع الحقوق محفوظة</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
