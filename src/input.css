@@ -36,7 +36,7 @@
   }
 
   h4 {
-    @apply text-[24px] text-underline font-bold font-paragraph;
+    @apply md:text-[24px] text-[16px] text-underline font-bold font-paragraph;
   }
 
   h5 {
