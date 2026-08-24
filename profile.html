@@ -106,7 +106,89 @@
                         </div>
 
                     </div>
-                    <div></div>
+                    <div>
+                        <div class="flex flex-col gap-6 mb-6">
+                            <div class="row justify-between ">
+                                <div>
+                                    <h5 class="text-texts">آخر الطلبات</h5>
+                                </div>
+                                <button>
+                                    <h5 class="text-underline font-bold">عرض الكل</h5>
+                                </button>
+                            </div>
+                        </div>
+                        <div class="w-full bg-white overflow-x-auto rounded-sm font-paragraph shadow-sm">
+                            <table class="w-full text-right">
+                                <thead class="bg-[#EFE6D8] font-bold ">
+                                    <tr class="hover:bg-black/5 transition-colors">
+                                        <th class="head">رقم الطلب </th>
+                                        <th class="head"> التاريخ</th>
+                                        <th class="head"> الإجمالي</th>
+                                        <th class="head">الحالة</th>
+                                        <th class="head"> الإجراء </th>
+                                    </tr>
+                                </thead>
+                                <tbody class="divide-y divide-gray-200">
+                                    <tr class=" border-t border-gray-200 hover:bg-black/5 transition-colors">
+                                        <td class="text-[#1A1C1B] font-bold rowt">
+                                            <h5>#TR-89210</h5>
+                                        </td>
+                                        <td class="text-[#1A1C1B] rowt">
+                                            <h5>١٢ أكتوبر ٢٠٢٣</h5>
+                                        </td>
+                                        <td class="text-texts rowt">
+                                            <h5>١,٤٥٠ ر.س</h5>
+                                        </td>
+                                        <td class="rowt">
+                                            <span class="text-[#FFFFFF] bg-black rounded-full px-3 py-1 text-[11px] font-bold ">تم
+                                                التوصيل</span>
+                                        </td>
+                                        <td class="rowt">
+                                            <img src="./assest/icons/الاجراء.svg" class="inline-block cursor-pointer">
+                                        </td>
+                                    </tr>
+                                    <tr class=" border-t border-gray-200 hover:bg-black/5 transition-colors">
+                                        <td class="text-[#1A1C1B] font-bold rowt">
+                                            <h5>#TR-87552</h5>
+                                        </td>
+                                        <td class="text-[#1A1C1B] rowt">
+                                            <h5>٠٥ أكتوبر ٢٠٢٣</h5>
+                                        </td>
+                                        <td class="text-texts rowt">
+                                            <h5>٨٩٠ ر.س</h5>
+                                        </td>
+                                        <td class="rowt">
+                                            <span
+                                                class="text-[#FFFFFF] bg-underline rounded-full px-3 py-1 text-[11px] font-bold ">قيد
+                                                الشحن</span>
+                                        </td>
+                                        <td class="rowt">
+                                            <img src="./assest/icons/الاجراء.svg" class="inline-block cursor-pointer">
+                                        </td>
+                                    </tr>
+                                    <tr class=" border-t border-gray-200 hover:bg-black/5 transition-colors">
+                                        <td>
+                                            <h5 class="text-[#1A1C1B] font-bold rowt">#TR-86119</h5>
+                                        </td>
+                                        <td>
+                                            <h5 class="text-[#1A1C1B] rowt">٢٨ سبتمبر ٢٠٢٣</h5>
+                                        </td>
+                                        <td>
+                                            <h5 class="text-texts rowt">٢,١٠٠ ر.س</h5>
+                                        </td>
+                                        <td class="rowt">
+                                            <span
+                                                class="text-nav bg-[#C1C8C4] rounded-full px-3 py-1 text-[11px] font-bold ">قيد
+                                                المعالجة</span>
+                                        </td>
+                                        <td class="rowt">
+                                            <img src="./assest/icons/الاجراء.svg" class="inline-block cursor-pointer">
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
                     <div>
                         <div class="flex flex-col gap-6 mb-6">
                             <div class="row justify-between ">
@@ -125,7 +207,7 @@
                                         src="./assest/icons/قطرة.svg">
                                     <img src="./assest/imges/products/عطر العود الملكي 2.webp" class="w-full rounded-sm"
                                         alt="عطر العود الملكي">
-                                    <h5 class="font-bold mt-3">عطر العود الملكي</h5>
+                                    <h5 class="font-bold mt-4">عطر العود الملكي</h5>
                                     <div class="flex justify-between">
                                         <h5 class="mt-1">٧٥٠ ر.س</h5>
                                         <button><img src="./assest/icons/add.svg" class="rounded-lg w-7 h-8"></button>
@@ -139,7 +221,7 @@
                                         محدود</span>
                                     <img src="./assest/imges/products/ساعة الزمرد الكلاسيكية.webp"
                                         class="w-full rounded-sm" alt="ساعة الزمرد الكلاسيكية">
-                                    <h5 class="font-bold mt-3">ساعة الزمرد الكلاسيكية</h5>
+                                    <h5 class="font-bold mt-4">ساعة الزمرد الكلاسيكية</h5>
                                     <div class="flex justify-between">
                                         <h5 class="mt-1">٣,٢٠٠ ر.س</h5>
                                         <button><img src="./assest/icons/add.svg" class="rounded-lg w-7 h-8"></button>
@@ -150,7 +232,7 @@
                                 <div class="imgProducts rounded-lg">
                                     <img src="./assest/imges/products/أزرار كبك التراث.webp" class="w-full rounded-sm"
                                         alt="أزرار كبك التراث">
-                                    <h5 class="font-bold mt-3">أزرار كبك "التراث"</h5>
+                                    <h5 class="font-bold mt-4">أزرار كبك "التراث"</h5>
                                     <div class="flex justify-between">
                                         <h5 class="mt-1">٤٥٠ ر.س</h5>
                                         <button><img src="./assest/icons/add.svg" class="rounded-lg w-7 h-8"></button>
@@ -159,7 +241,7 @@
                             </a>
                         </div>
                     </div>
-
+                </div>
             </section>
             <section class="left shrink-0 w-full md:w-86">
                 <div class="bg-[#F4F3F1] p-6 flex flex-col gap-4">
