@@ -3,12 +3,7 @@
 @utility row {
   @apply flex items-center;
 }
-@utility head{
-  @apply py-4 px-4 text-grayy text-sm font-bold whitespace-nowrap ;
-}
-@utility rowt{
-  @apply py-7 px-4 whitespace-nowrap;
-}
+
 
 @theme {
   --font-Heading: "IBM Plex Sans Arabic";
@@ -82,5 +77,13 @@
 
   .inputLeftSide {
     @apply row gap-3 text-[16px];
+  }
+
+  .head {
+    @apply py-4 px-4 text-grayy text-sm font-bold whitespace-nowrap;
+  }
+
+  .rowt {
+    @apply py-7 px-4 whitespace-nowrap;
   }
 }
